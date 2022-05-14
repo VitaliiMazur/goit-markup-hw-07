@@ -1,6 +1,11 @@
-@import "./header";
-@import "./button";
-@import "./portfolio";
-@import "./studio";
-@import "./footer";
-@import "./modal";
+@import './utils/reset';
+@import './utils/variables';
+@import './components/button';
+@import './components/footer';
+@import './components/header';
+@import './components/modal';
+@import './components/portfolio';
+@import './components/studio'
+
+
+
