@@ -294,7 +294,6 @@ body {
   margin-left: 8px;
 }
 
-
 /* -------------------------------------------------------------ПОРТФОЛИО */
 
 .portfolio {
@@ -620,9 +619,11 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
 
   color: var(--title-text-color);
+}
+.client-title-margin {
+  margin-bottom: 50px;
 }
 .client-list {
   display: flex;
@@ -643,17 +644,17 @@ body {
   fill: var(--team-soc-icon-color);
 }
 
-.clients-icon {
+.clients__logo {
   transition: fill var(--hover-duration) var(--hover-time-function);
 }
 
-.client-item + .client-item {
+.client-item-margin + .client-item-margin {
   margin-left: 30px;
 }
-.clients-link:hover .clients-icon {
+.clients-link:hover .clients__logo {
   fill: var(--acent-color);
 }
-.clients-link:focus .clients-icon {
+.clients-link:focus .clients__logo {
   fill: var(--acent-color);
 }
 .clients-link:hover {
