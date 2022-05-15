@@ -23,11 +23,13 @@
     align-items: center;
     border-radius: 50%;
     background-color: var(--footer-bg-icon-color);
+
+    & + & {
+      margin-left: 10px;
+    }
   }
   
-  .go-item + .go-item {
-    margin-left: 10px;
-  }
+  
   .go-list {
     display: flex;
   }
