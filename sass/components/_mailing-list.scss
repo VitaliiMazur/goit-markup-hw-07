@@ -1,0 +1,27 @@
+.footer-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color var(--hover-duration) var(--hover-time-function);
+  }
+  
+  
+  
+  .footer-link:hover {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+  
+  .footer-link:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+  
+  .footer-link:focus .go-footer-icon {
+    fill: var(--primary-bg-color);
+  }
+  
+  .footer-link:hover .go-footer-icon {
+    fill: var(--primary-bg-color);
+  }

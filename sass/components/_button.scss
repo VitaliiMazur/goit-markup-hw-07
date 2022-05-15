@@ -1,3 +1,5 @@
+
+// Кнопки в портфоліо
 .button {
     background-color: var(--primary-bg-color);
   }
@@ -41,6 +43,74 @@
     margin-left: 8px;
   }
 
+
+     //Кнопка в студії Заказать услугу
+  
+
+  .business-text {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    max-width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+  
+    color: var(--primary-bg-color);
+  }
+  
+  .btn-service {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    border: 0px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    min-width: 200px;
+    transition: background-color var(--hover-duration) var(--hover-time-function);
+  
+    background-color: var(--acent-color);
+    color: var(--primary-bg-color);
+  }
+  .btn-service:hover,
+  .btn-service:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+
+
+  //Кнопка в футері
+
+  .sucscribe-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    border: 0px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    transition: background-color var(--hover-duration) var(--hover-time-function);
+    margin-left: 12px;
+    background-color: var(--acent-color);
+    color: var(--primary-bg-color);
+  }
+  
+  .sucscribe-button:hover,
+  .sucscribe-button:focus {
+    background-color: var(--bgc--hoverfocus-btnservice-color);
+  }
+  .button-icon {
+    margin-left: 10px;
+  }
 
 
   

@@ -3,42 +3,7 @@
     align-items: baseline;
   }
   
-  .studio-footer {
-    color: var(--primary-bg-color);
-  }
-  .footer-logo {
-    display: block;
-    margin-bottom: 20px;
   
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  
-    color: var(--acent-color);
-  }
-  
-  .address {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-bg-color);
-  }
-  .studio-footer {
-    color: var(--primary-bg-color);
-  }
-  .address {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-bg-color);
-  }
   .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -46,118 +11,6 @@
     background-color: var(--footer-bgc-color);
   }
   
-  .email-footer,
-  .tel-footer {
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
-  }
-  .email-footer {
-    margin-bottom: 9px;
-  }
-  
-  .footer-icon {
-    display: flex;
-    box-sizing: border-box;
-    display: block;
-    margin-left: 70px;
-  }
-  .go {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: var(--primary-bg-color);
-  }
-  
-  .go-item {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: var(--footer-bg-icon-color);
-  }
-  
-  .go-item + .go-item {
-    margin-left: 10px;
-  }
-  .go-list {
-    display: flex;
-  }
-  
-  .go-footer-icon {
-    fill: var(--team-soc-icon-color);
-  }
-  
-  .footer-link {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: background-color var(--hover-duration) var(--hover-time-function);
-  }
-  
-  .go-footer-icon {
-    fill: var(--primary-bg-color);
-  }
-  
-  .footer-link:hover {
-    background-color: var(--bgc--hoverfocus-btnservice-color);
-  }
-  
-  .footer-link:focus {
-    background-color: var(--bgc--hoverfocus-btnservice-color);
-  }
-  
-  .footer-link:focus .go-footer-icon {
-    fill: var(--primary-bg-color);
-  }
-  
-  .footer-link:hover .go-footer-icon {
-    fill: var(--primary-bg-color);
-  }
-  
-  .email-text {
-    display: inline-flex;
-    outline: none;
-  
-    min-width: 358px;
-    height: 50px;
-    padding-left: 16px;
-  
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: var(--footer-bgc-color);
-  }
-  
-  .email-text::placeholder,
-  .email-text:focus-visible {
-    font-size: 16px;
-    line-height: 1.25;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  .sucscribe-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  
-    color: var(--primary-bg-color);
-  }
   
   .input-button {
     display: flex;
@@ -165,29 +18,4 @@
     margin-left: 93px;
   }
   
-  .sucscribe-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    border: 0px;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    min-width: 200px;
-    min-height: 50px;
-    transition: background-color var(--hover-duration) var(--hover-time-function);
-    margin-left: 12px;
-    background-color: var(--acent-color);
-    color: var(--primary-bg-color);
-  }
   
-  .sucscribe-button:hover,
-  .sucscribe-button:focus {
-    background-color: var(--bgc--hoverfocus-btnservice-color);
-  }
-  .button-icon {
-    margin-left: 10px;
-  }
