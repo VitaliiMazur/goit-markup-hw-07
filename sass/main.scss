@@ -1,11 +1,11 @@
-@import "./utils/reset";
+@import "./base/reset";
 @import "./utils/variables";
 @import "./components/button";
 @import "./components/footer";
 @import "./components/header";
 @import "./components/modal";
 @import "./components/portfolio";
-@import "./components/studio";
+@import "./components/studio-hero";
 @import "./components/header-logo-text";
 @import "./components/header-icon";
 @import "./components/header-nav";
@@ -18,3 +18,7 @@
 @import "./components/mailing-list";
 @import "./components/mailing-text";
 @import "./components/sucscribe-text";
+@import "./components/benefits";
+@import "./components/our-work";
+@import "./components/our-team";
+@import "./components/clients";
